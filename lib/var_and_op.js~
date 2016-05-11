@@ -43,7 +43,7 @@ var computeSum = function() {
 
 	var result = 0;
 
-	for (i = 0; i < arguments.length; i++) {
+	for (i = 0; i < parseInt(arguments.length); i++) {
 		result += arguments[i];
 	}
 	return result;
